@@ -6,28 +6,28 @@ $dockerConfig = [
     0 => [
         'ServerName' => getenv('RO_SERVER_NAME'),
         'DbConfig' => [
-            'Hostname' => "mariadb",
-            'Username' => "ragnarok",
-            'Password' => "ragnarok",
-            'Database' => "ragnarok",
+            'Hostname' => 'mariadb',
+            'Username' => 'ragnarok',
+            'Password' => 'ragnarok',
+            'Database' => 'ragnarok',
         ],
         'LogsDbConfig' => [
-            'Hostname' => "mariadb",
-            'Username' => "ragnarok",
-            'Password' => "ragnarok",
-            'Database' => "ragnarok",
+            'Hostname' => 'mariadb',
+            'Username' => 'ragnarok',
+            'Password' => 'ragnarok',
+            'Database' => 'ragnarok',
         ],
         'LoginServer' => [
-            'Address' => "login-server",
+            'Address' => 'login-server',
         ],
         'CharMapServers' => [
             0 => [
                 'ServerName' => getenv('RO_SERVER_NAME'),
                 'CharServer' => [
-                    'Address' => "char-server",
+                    'Address' => 'char-server',
                 ],
                 'MapServer' => [
-                    'Address' => "map-server",
+                    'Address' => 'map-server',
                 ],
             ]
         ]

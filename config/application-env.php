@@ -3,7 +3,7 @@
 $userConfig = include __DIR__ . '/application.php';
 
 $dockerConfig = [
-    'ServerAddress' => 'localhost',
+    'ServerAddress' => getenv('DOMAIN'),
     'BaseURI' => getenv('BASE_PATH'),
     'InstallerPassword' => getenv('INSTALLER_PASSWORD'),
     'SiteTitle' => getenv('SITE_TITLE'),

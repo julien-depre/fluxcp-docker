@@ -27,18 +27,7 @@ RUN docker-php-ext-enable pdo pdo_mysql zip gd mysqli
 
 ENV BASE_PATH="" \
     SITE_TITLE="Flux Control Panel" \
-    INSTALLER_PASSWORD=secretpassword \
     RO_SERVER_NAME="FluxRO" \
-    DATABASE_HOST=localhost \
-    DATABASE_USER=ragnarok \
-    DATABASE_PASS=ragnarok \
-    DATABASE_NAME=ragnarok \
-    LOG_DATABASE_HOST=localhost \
-    LOG_DATABASE_USER=ragnarok \
-    LOG_DATABASE_PASS=ragnarok \
-    LOG_DATABASE_NAME=ragnarok \
-    LOGIN_SERVER_HOST=localhost \
-    CHAR_SERVER_HOST=localhost \
-    MAP_SERVER_HOST=localhost
+    INSTALLER_PASSWORD=secretpassword
 
 EXPOSE 80
